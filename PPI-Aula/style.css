@@ -8,12 +8,45 @@
     animation: moveright 5s linear 0s infinite;
           /*nome duração*/
 }
+#c1box1{
+    animation:moveright 0.1s linear 0s infinite;
+}
+/*body{
+    animation: gira 1s linear 0s infinite;
+}*/
 
 @keyframes moveright{
     0%{
         left: 0px;
     }
     100%{
-        left: 800px;
+        left: 500px;
+        background-color: blue;
+    }
+}
+
+@keyframes gira{
+    0%{
+        transform: translate(-30px,0px);
+    }
+    100%{
+        transform: translate(100px,400px);
+    }
+}
+
+#foguete{
+    width: 100px;
+    position: fixed;
+    bottom: 0px;
+    left: 50%;
+    animation: lancamento 5s ease-in 0s infinite;
+}
+
+@keyframes lancamento{
+    0%{
+        top:100%;
+    }
+    100%{
+        top:0%;
     }
 }
