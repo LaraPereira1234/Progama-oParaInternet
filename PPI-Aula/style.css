@@ -1,0 +1,19 @@
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px double magenta;
+    font-size: 20pt;
+    text-align: center;
+    position: relative;
+    animation: moveright 5s linear 0s infinite;
+          /*nome duração*/
+}
+
+@keyframes moveright{
+    0%{
+        left: 0px;
+    }
+    100%{
+        left: 800px;
+    }
+}
