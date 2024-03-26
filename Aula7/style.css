@@ -1,0 +1,27 @@
+.container{
+    border: 1px solid red;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-,space-evenly;
+    /*align-items: center; /*elementos*/ 
+    align-content: stretch; /*espaço*/
+}
+
+.box{
+    border: 1px solid pink;
+    flex-shrink: 0;
+    min-width: 30px;
+    transition: 2s;
+}
+
+.box:hover{
+    flex-grow: 1;
+    transition: 2s;
+    background-color: blueviolet;
+}
+
+#c1-box5{
+    align-self: flex-start;
+}
