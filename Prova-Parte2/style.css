@@ -1,10 +1,65 @@
-.geral{
+*{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#img1, #img3, #img4, #img5{
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+#img2{
+    width: 900px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#geral>h4{
+    margin-top: 5px;
+    color: black;
+    align-self:normal;
+}
+
+#geral{
     display: flex;
-    flex-direction: row;
+    font-size: 15px;
     justify-content: center;
+    color: black;
+    align-items:normal;
+    position: fixed;
 }
 
-#img1{
-    background-image: url("logo1.png");
+#imagens1{
+    display:flex;
+    flex-direction:row;
+    justify-content:end;
 }
 
+#imagens2{
+    display:flex;
+    flex-direction:row;
+    justify-content:end;
+}
+
+#imagens3{
+    display:flex;
+    flex-direction:row;
+    justify-content:end;
+}
+
+#imagem{
+    border-radius: 30px;
+    height: 100px;
+    width: 100px;
+    align-items: center;
+} 
+
+ 
