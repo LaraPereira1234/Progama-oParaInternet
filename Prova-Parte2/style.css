@@ -41,25 +41,106 @@ body{
     display:flex;
     flex-direction:row;
     justify-content:end;
+    margin: 10px;
 }
 
 #imagens2{
     display:flex;
     flex-direction:row;
     justify-content:end;
+    margin: 10px;
 }
 
 #imagens3{
     display:flex;
     flex-direction:row;
     justify-content:end;
+    margin: 10px;
 }
 
-#imagem{
+#im1{
+    margin: 45px;
+    margin-left: 10px;
+    margin-right: 10px;
     border-radius: 30px;
-    height: 100px;
-    width: 100px;
-    align-items: center;
+} 
+
+#im2{
+    margin: 45px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 30px;
+} 
+
+#im3{
+    margin: 45px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 30px;
+} 
+
+#im4{
+    margin: 45px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 30px;
+} 
+
+#im5{
+    margin: 45px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 30px;
+
+} 
+
+#im6{
+    margin: -25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 30px;
+} 
+
+#im7{
+    margin: -90px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 30px;
+} 
+
+#im8{
+    margin: -25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 30px;
+} 
+
+#im9{
+    margin: -200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 30px;
+} 
+
+#im10{
+    margin: -140px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 30px;
+} 
+
+#im11{
+    margin: -10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 30px;
+} 
+
+#im12{
+    margin: -10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 30px;
 } 
 
  
