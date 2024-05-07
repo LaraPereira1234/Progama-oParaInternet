@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <button id="button">Alterar Cor de Fundo</button>
+</body>
+<script>
+     var btn = document.querySelector("button");
+
+     function random(number) {
+        return Math.floor(Math.random() * (number + 1));
+     }
+
+     function trocarFundo(){
+        var rndCol = "rgb(" + random(255) + "," + random(255) + "," + random(255) + ")";
+        document.body.style.backgroundColor = rndCol;
+     }
+
+     let p = document.getElementById("button");
+     p.addEventListener("click", trocarFundo);
+</script>
+</html>

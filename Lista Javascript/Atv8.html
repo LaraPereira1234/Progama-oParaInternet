@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Insira o texto</h2>
+    <label for = "txt">Texto: </label>
+    <input type="text" name="" id="txt">
+    <br>
+    <br>
+    <button id = "btn">Copiar texto</button>
+    <div id="textos"></div>
+</body>
+<script>
+    let txt = document.querySelector("#txt");
+    let textos = document.querySelector("#textos");
+    let btn = document.querySelector("#btn");
+
+    function copiarTexto(){
+      let p = document.createElement("p");
+      p.innerHTML = txt.value;
+      textos.appendChild(p);
+    }
+
+    btn.addEventListener('click', copiarTexto);
+</script>
+</html>

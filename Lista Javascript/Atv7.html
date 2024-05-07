@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Insira dois números: </h1>
+    <label for = "a"> Número 1: </label>
+    <input type="text" name="" id="a">
+    <br>
+    <br>
+    <label for = "a"> Número 2: </label>
+    <input type="text" name="" id="b">
+    <br>
+    <br>
+    <button id = "Botao">Somar</button>
+    <p id="Resultado"></p>
+
+    <script>
+        let b = document.querySelector("#Botao");
+
+        let inputA = document.querySelector("#a");
+        let inputB = document.querySelector("#b");
+        let resultadosoma = document.querySelector('#resultadosoma');
+        
+        function loadvariavel(){
+            let na = Number(inputA.value);
+            let nb = Number(inputB.value);
+           
+            let c = soma(na,nb);
+            console.log(c);
+            alert(c);
+            resultadosoma.innerHTML = c;
+        }
+        function soma(a,b){
+            return a + b;
+        }
+        b.addEventListner('mouseover',loadvariavel);
+    </script>
+</body>
+</html>
