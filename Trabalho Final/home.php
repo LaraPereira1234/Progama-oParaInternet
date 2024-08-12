@@ -1,4 +1,6 @@
-<h2>Bem Vindo </h2>
+<h2>Bem Vindo Aluno!</h2>
+<hr>
+<img src = "logo.png" alt = "imagem">
 <hr>
 <a href = "sair.php">Sair</a>
 <?php
