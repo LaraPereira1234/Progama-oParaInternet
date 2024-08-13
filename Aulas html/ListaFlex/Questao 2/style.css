@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    border: 3px solid purple;
+    border-radius: 5px;
+}
+
+*{
+    color: lightgray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.lines, .user {
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.container, h1{   
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    height: 200px;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 250px;
+}
+
+.lines {
+    width: 700px;
+    height: 30px;
+    margin: 15px;
+}
+
+#c{
+    align-content: flex-start;
+}
+
+#c2{
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-end;
+    margin: 30px;
+}
+
+#name{
+    width: 250px;
+    height: 30px;
+}
+
+#picture{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    align-self: center;
+    margin: 20px;
+}
